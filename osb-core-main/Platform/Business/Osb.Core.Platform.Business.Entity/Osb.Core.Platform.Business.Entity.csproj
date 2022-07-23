@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Common\Osb.Core.Platform.Common.Entity\Osb.Core.Platform.Common.Entity.csproj" />
+    <ProjectReference Include="..\Osb.Core.Platform.Business.Common\Osb.Core.Platform.Business.Common.csproj" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+</Project>

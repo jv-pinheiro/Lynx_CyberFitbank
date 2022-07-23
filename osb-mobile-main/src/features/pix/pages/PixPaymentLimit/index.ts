@@ -1,0 +1,1 @@
+export { PixPaymentLimit } from './PixPaymentLimit.controller';
