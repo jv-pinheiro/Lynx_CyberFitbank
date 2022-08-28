@@ -13,9 +13,9 @@ export const OnboardingTitle: React.FC = () => {
       className={styles.title}
       data-test-id="welcome-title"
     >
-      Seja bem-vindo
+      Oi, seja bem-vindo
       <br />
-      ao <strong>{company.name}</strong>
+      ao <strong> {company.name}</strong>
     </Typography>
   )
 }

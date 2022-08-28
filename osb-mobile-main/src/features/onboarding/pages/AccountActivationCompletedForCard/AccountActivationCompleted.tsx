@@ -40,7 +40,7 @@ export const AccountActivationCompletedForCard: React.FC<
               gutterBottom
               data-test-id="onboarding-name"
             >
-              Seja Bem vindo,&nbsp;
+              Oi, seja Bem vindo,&nbsp;
               <strong>{state.onboardingForm?.name?.split(' ')[0]}!</strong>
             </Typography>
             <Typography
