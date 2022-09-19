@@ -108,7 +108,7 @@ export const BirthDate: React.FC = () => {
   return (
     <PageContainer>
       <ProcessPageLayout
-        appBar={
+/*        appBar={
           <AppBar
             homeRoute={AccountRoutes.home}
             action={
@@ -123,7 +123,7 @@ export const BirthDate: React.FC = () => {
               </Button>
             }
           />
-        }
+        } */
         header={
           <ProcessDescriptionHeader
             title="Ative Sua Conta"

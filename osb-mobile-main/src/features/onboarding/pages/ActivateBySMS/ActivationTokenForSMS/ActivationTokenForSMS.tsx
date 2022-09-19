@@ -56,7 +56,7 @@ export const ActivationToken: React.FC<ResendTokenProps> = ({
   return (
     <PageContainer>
       <ProcessPageLayout
-        appBar={
+/*        appBar={
           <AppBar
             homeRoute={OnboardingRoutes.welcome}
             action={
@@ -71,7 +71,7 @@ export const ActivationToken: React.FC<ResendTokenProps> = ({
               </Button>
             }
           />
-        }
+        } */
         header={
           <ProcessDescriptionHeader
             title="Ative sua Conta"

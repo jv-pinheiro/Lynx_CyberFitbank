@@ -51,7 +51,7 @@ export const PaymentAttach: React.FC = () => {
 
   return (
     <ProcessPageLayout
-      appBar={
+/*      appBar={
         <AppBar
           homeRoute={AccountRoutes.home}
           action={
@@ -66,7 +66,7 @@ export const PaymentAttach: React.FC = () => {
             </Button>
           }
         />
-      }
+      } */
       header={
         <>
           <ProcessDescriptionHeader

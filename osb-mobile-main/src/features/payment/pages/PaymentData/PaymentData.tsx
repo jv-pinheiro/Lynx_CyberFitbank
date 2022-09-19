@@ -88,7 +88,7 @@ export const PaymentData: React.FC = () => {
   return (
     <PageContainer>
       <ProcessPageLayout
-        appBar={
+/*        appBar={
           <AppBar
             homeRoute={AccountRoutes.home}
             action={
@@ -103,7 +103,7 @@ export const PaymentData: React.FC = () => {
               </Button>
             }
           />
-        }
+        } */
         header={
           <React.Fragment>
             <ProcessDescriptionHeader

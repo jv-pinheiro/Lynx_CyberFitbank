@@ -29,7 +29,7 @@ export const PaymentReceipt: React.FC = () => {
   return (
     <PageContainer>
       <ProcessPageLayout
-        appBar={
+/*        appBar={
           <AppBar
             homeRoute={AccountRoutes.home}
             action={
@@ -44,7 +44,7 @@ export const PaymentReceipt: React.FC = () => {
               </Button>
             }
           />
-        }
+        } */
         header={<ProcessDescriptionHeader title="Comprovante" />}
         main={
           <React.Fragment>

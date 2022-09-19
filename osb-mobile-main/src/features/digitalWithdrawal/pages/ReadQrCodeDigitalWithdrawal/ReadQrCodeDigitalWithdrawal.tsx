@@ -42,7 +42,7 @@ export const ReadQrCodeDigitalWithdrawal: React.FC = () => {
   return (
     <PageContainer className={styles.container}>
       <ProcessPageLayout
-        appBar={
+/*        appBar={
           <AppBar
             homeRoute={AccountRoutes.home}
             action={
@@ -57,7 +57,7 @@ export const ReadQrCodeDigitalWithdrawal: React.FC = () => {
               </Button>
             }
           />
-        }
+        } */
         header={
           <Typography align="center">
             <ProcessDescriptionHeader

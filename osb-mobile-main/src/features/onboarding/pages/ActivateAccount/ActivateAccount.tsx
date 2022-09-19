@@ -14,7 +14,7 @@ export const ActivateAccount: React.FC = () => {
 
   return (
     <ProcessPageLayout
-      appBar={<AppBar homeRoute={OnboardingRoutes.welcome} />}
+      //appBar={<AppBar homeRoute={OnboardingRoutes.welcome} />}
       header={
         <ProcessDescriptionHeader
           title="Ativar conta"

@@ -1,17 +1,18 @@
 import { makeStyles } from '@material-ui/core'
 import { colors, theme } from '_config/theme'
-import welcomeBackground from '_assets/img/loginBackground.svg'
+import welcomeBackground from '_assets/img/palitos-brancos.svg'
+import logo from '_assets/img/homebank.svg'
 
 export const useOnboardingStyles = makeStyles({
   container: {
     display: 'flex',
     overflow: 'hidden',
     alignItems: 'center',
-    backgroundColor: colors.system.light.primary,
+    backgroundColor: '#145281',
     backgroundImage: `url(${welcomeBackground})`,
-    backgroundPosition: 'top',
+    backgroundPosition: 'center',
     backgroundRepeat: 'no-repeat',
-    backgroundSize: '900px',
+    backgroundSize: '650px',
 
     [theme.breakpoints.up('md')]: {
       padding: '0 80px',
@@ -34,7 +35,7 @@ export const useOnboardingStyles = makeStyles({
     },
   },
   logo: {
-    marginBottom: 72,
+    marginBottom: 10,
   },
   title: {
     marginBottom: 64,

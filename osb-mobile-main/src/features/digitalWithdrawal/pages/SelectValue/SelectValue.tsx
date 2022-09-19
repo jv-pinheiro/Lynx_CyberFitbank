@@ -52,7 +52,7 @@ export const SelectValue: React.FC = () => {
   return (
     <PageContainer>
       <ProcessPageLayout
-        appBar={
+/*        appBar={
           <AppBar
             homeRoute={AccountRoutes.home}
             action={
@@ -67,7 +67,7 @@ export const SelectValue: React.FC = () => {
               </Button>
             }
           />
-        }
+        } */
         header={
           <Box>
             <ProcessDescriptionHeader title="Saque digital" />

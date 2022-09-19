@@ -86,7 +86,7 @@ type Palette = {
 export const colors: Palette = {
   system: {
     light: {
-      primary: '#323751',
+      primary: '#145281',
       onPrimary: '#FFFFFF',
       primaryContainer: '',
       onPrimaryContainer: '',
@@ -258,7 +258,7 @@ export const colors: Palette = {
   },
   source: {
     seed: '#323751',
-    primary: '',
+    primary: '#145281',
     secondary: '#5F81A6',
     terciary: '',
     error: '#BA1B1B',

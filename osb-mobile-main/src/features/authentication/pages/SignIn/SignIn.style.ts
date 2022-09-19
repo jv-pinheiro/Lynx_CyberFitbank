@@ -1,5 +1,7 @@
 import { makeStyles } from '@material-ui/core'
-import loginBackground from '_assets/img/loginBackground.svg'
+//import loginBackground from '_assets/img/loginBackground.svg'
+import logo from '_assets/img/homebank.svg'
+import palitos from '_assets/img/palitos.svg'
 import { colors, theme } from '_config/theme'
 
 const bottomSpacing = 16
@@ -23,14 +25,20 @@ const backgroundHeight = calculateBackgroundHeight()
 export const useStyle = makeStyles({
   container: {
     minHeight: '100vh',
-    backgroundImage: `url(${loginBackground})`,
+    backgroundImage: `url(${palitos})`,
     backgroundRepeat: 'no-repeat',
-    backgroundPosition: 'top',
-    backgroundSize: '900px',
+    backgroundPosition: 'center',
+    backgroundSize: '700px',
   },
+
   header: {
     color: colors.system.light.primary,
-    marginBottom: 64,
+    //minHeight: '11vh',
+    //backgroundImage: `url(${logo})`,
+    backgroundSize: '100px',
+    backgroundPosition: 'center',
+    backgroundRepeat: 'no-repeat',
+    marginBottom: 60,
     [theme.breakpoints.down('sm')]: {
       marginBottom: 48,
     },

@@ -82,7 +82,7 @@ export const CreatePasswordForCard: React.FC = () => {
 
   return (
     <ProcessPageLayout
-      appBar={
+/*      appBar={
         <AppBar
           homeRoute={OnboardingRoutes.welcome}
           action={
@@ -97,7 +97,7 @@ export const CreatePasswordForCard: React.FC = () => {
             </Button>
           }
         />
-      }
+      } */
       header={
         <ProcessDescriptionHeader
           title="Ative sua Conta"

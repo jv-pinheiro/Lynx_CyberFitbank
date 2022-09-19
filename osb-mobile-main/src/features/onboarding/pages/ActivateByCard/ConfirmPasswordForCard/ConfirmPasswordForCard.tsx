@@ -49,7 +49,7 @@ export const ConfirmPasswordForCard: React.FC = () => {
 
   return (
     <ProcessPageLayout
-      appBar={
+/*      appBar={
         <AppBar
           homeRoute={OnboardingRoutes.welcome}
           action={
@@ -64,7 +64,7 @@ export const ConfirmPasswordForCard: React.FC = () => {
             </Button>
           }
         />
-      }
+      } */
       header={
         <ProcessDescriptionHeader
           title="Ative sua Conta"

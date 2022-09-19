@@ -30,7 +30,7 @@ export const DigitalWithdrawalSuccess: React.FC = () => {
   return (
     <PageContainer>
       <ProcessPageLayout
-        appBar={<AppBar homeRoute="/" />}
+        //appBar={<AppBar homeRoute="/" />}
         main={
           <Box className={styles.content}>
             <Typography className={styles.title}>Saque </Typography>

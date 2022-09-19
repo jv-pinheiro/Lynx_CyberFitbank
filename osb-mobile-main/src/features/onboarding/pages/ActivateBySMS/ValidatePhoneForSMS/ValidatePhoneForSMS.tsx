@@ -70,7 +70,7 @@ export const ValidatePhone: React.FC<ResendTokenProsps> = ({ tokenRoute }) => {
   return (
     <PageContainer>
       <ProcessPageLayout
-        appBar={
+/*        appBar={
           <AppBar
             homeRoute={OnboardingRoutes.welcome}
             action={
@@ -85,7 +85,7 @@ export const ValidatePhone: React.FC<ResendTokenProsps> = ({ tokenRoute }) => {
               </Button>
             }
           />
-        }
+        } */
         header={
           <ProcessDescriptionHeader
             title="Ative sua Conta"

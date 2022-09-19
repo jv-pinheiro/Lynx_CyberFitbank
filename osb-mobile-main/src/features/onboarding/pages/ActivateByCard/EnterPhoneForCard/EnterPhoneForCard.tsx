@@ -58,7 +58,7 @@ export const EnterPhoneForCard: React.FC = () => {
   return (
     <PageContainer>
       <ProcessPageLayout
-        appBar={
+/*        appBar={
           <AppBar
             homeRoute={AccountRoutes.home}
             action={
@@ -73,7 +73,7 @@ export const EnterPhoneForCard: React.FC = () => {
               </Button>
             }
           />
-        }
+        } */
         header={
           <Box>
             <ProcessDescriptionHeader

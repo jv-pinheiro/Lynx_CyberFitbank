@@ -64,7 +64,7 @@ export const RecoverPassword: React.FC = () => {
         />
       )}
       <ProcessPageLayout
-        appBar={<AppBar homeRoute={AccountRoutes.home} />}
+        //appBar={<AppBar homeRoute={AccountRoutes.home} />}
         header={
           <ProcessDescriptionHeader
             title="Recuperar senha"

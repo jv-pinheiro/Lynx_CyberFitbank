@@ -90,7 +90,7 @@ export const Home: React.FC = () => {
   return (
     <PageContainer>
       <ProcessPageLayout
-        appBar={<AppBar homeRoute={AccountRoutes.home} />}
+        //appBar={<AppBar homeRoute={AccountRoutes.home} />}
         header={
           <React.Fragment>
             <ProcessDescriptionHeader

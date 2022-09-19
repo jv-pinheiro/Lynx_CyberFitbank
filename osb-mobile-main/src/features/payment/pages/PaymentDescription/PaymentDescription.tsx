@@ -74,7 +74,7 @@ export const PaymentDescription: React.FC = () => {
   return (
     <PageContainer>
       <ProcessPageLayout
-        appBar={
+/*        appBar={
           <AppBar
             homeRoute={'/'}
             action={
@@ -89,7 +89,7 @@ export const PaymentDescription: React.FC = () => {
               </Button>
             }
           />
-        }
+        } */
         header={
           <ProcessDescriptionHeader
             title="Pagamentos"

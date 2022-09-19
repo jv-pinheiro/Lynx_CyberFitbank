@@ -90,7 +90,7 @@ export const Terms: React.FC = () => {
         />
       )}
       <ProcessPageLayout
-        appBar={<AppBar homeRoute={OnboardingRoutes.terms} />}
+        //appBar={<AppBar homeRoute={OnboardingRoutes.terms} />}
         header={
           <ProcessDescriptionHeader
             title={`Bem vindo ao ${company.name}`}

@@ -88,7 +88,7 @@ export const EnterDigitsForCard: React.FC = () => {
   return (
     <PageContainer>
       <ProcessPageLayout
-        appBar={
+/*        appBar={
           <AppBar
             homeRoute={AccountRoutes.home}
             action={
@@ -103,7 +103,7 @@ export const EnterDigitsForCard: React.FC = () => {
               </Button>
             }
           />
-        }
+        } */
         header={
           <Box>
             <ProcessDescriptionHeader

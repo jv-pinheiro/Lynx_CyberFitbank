@@ -48,7 +48,7 @@ export const AccountEmail: React.FC = () => {
   return (
     <PageContainer>
       <ProcessPageLayout
-        appBar={
+/*        appBar={
           <AppBar
             homeRoute={OnboardingRoutes.welcome}
             action={
@@ -63,7 +63,7 @@ export const AccountEmail: React.FC = () => {
               </Button>
             }
           />
-        }
+        } */
         header={
           <ProcessDescriptionHeader
             title="Abertura de conta"

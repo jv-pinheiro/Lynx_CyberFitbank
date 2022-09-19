@@ -23,7 +23,7 @@ export const DigitalWithdrawalStart: React.FC = () => {
   return (
     <PageContainer>
       <ProcessPageLayout
-        appBar={<AppBar homeRoute={AccountRoutes.home} />}
+        //appBar={<AppBar homeRoute={AccountRoutes.home} />}
         main={
           <React.Fragment>
             <Typography className={styles.title} align="center">
@@ -56,7 +56,7 @@ export const DigitalWithdrawalStart: React.FC = () => {
             primaryButton={
               <Button
                 onClick={onNextButtonClick}
-                endIcon={<KeyboardArrowRight color="secondary" />}
+                endIcon={<KeyboardArrowRight color= "primary" />}
               >
                 Próximo
               </Button>

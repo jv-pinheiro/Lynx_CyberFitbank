@@ -30,9 +30,9 @@ export const DigitalWithdrawalSummary: React.FC = () => {
   return (
     <PageContainer>
       <ProcessPageLayout
-        appBar={
+/*        appBar={
           <AppBar
-            homeRoute={AccountRoutes.home}
+           homeRoute={AccountRoutes.home}
             action={
               <Button
                 palette="secondary"
@@ -45,7 +45,7 @@ export const DigitalWithdrawalSummary: React.FC = () => {
               </Button>
             }
           />
-        }
+        } */
         header={
           <Box>
             <ProcessDescriptionHeader title="Saque Digital" />

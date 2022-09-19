@@ -23,7 +23,7 @@ export const ChangePasswordCompleted: React.FC = () => {
             <Icon name="accountActivationCompleted" />
             <Box className="welcome-message" data-test-id="welcome-message">
               <Typography variant="caption" display="block" gutterBottom>
-                Seja Bem vindo, <strong>{userName}!</strong>
+                Oi, seja Bem vindo, <strong>{userName}!</strong>
               </Typography>
               <Typography variant="caption">
                 <strong>A senha criada será utilizada</strong>

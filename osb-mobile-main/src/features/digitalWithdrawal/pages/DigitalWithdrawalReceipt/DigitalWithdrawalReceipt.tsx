@@ -26,7 +26,7 @@ export const DigitalWithdrawalReceipt: React.FC = () => {
   return (
     <PageContainer>
       <ProcessPageLayout
-        appBar={
+/*        appBar={
           <AppBar
             homeRoute={AccountRoutes.home}
             action={
@@ -41,7 +41,7 @@ export const DigitalWithdrawalReceipt: React.FC = () => {
               </Button>
             }
           />
-        }
+        } */
         header={<ProcessDescriptionHeader title="Comprovante" />}
         main={
           <Box className={styles.detailContent}>

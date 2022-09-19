@@ -16,7 +16,7 @@ export const MoneyCount: React.FC = () => {
   return (
     <PageContainer>
       <ProcessPageLayout
-        appBar={<AppBar homeRoute={AccountRoutes.home} />}
+        //appBar={<AppBar homeRoute={AccountRoutes.home} />}
         header={<ProcessDescriptionHeader title="Saque digital" />}
         main={
           <Box className={style.main}>
