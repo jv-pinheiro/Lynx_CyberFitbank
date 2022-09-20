@@ -1,8 +1,9 @@
 import React from 'react'
 import { AppBar as MuiAppBar, Box, Toolbar } from '@material-ui/core'
 import { useHistory } from 'react-router-dom'
-import companyLogo from '_assets/img/logo-small.svg'
-
+import companyLogo from '_assets/img/helpsound.svg'
+import helpLogo from '_assets/img/teleatendimento.svg'
+import voltTemp from '_assets/img/Voltar.svg'
 import { useStyles } from './AppBar.style'
 
 interface AppBarProps {
@@ -30,10 +31,22 @@ export const AppBar: React.FC<AppBarProps> = ({
     >
       <Toolbar className={style.toolbar}>
         <Box className={style.logo}>
+        <img
+            src={voltTemp}
+            onClick={onLogoClick}
+            alt="logVol"
+            data-test-id="logo"
+          />
           <img
             src={companyLogo}
             onClick={onLogoClick}
-            alt="logo"
+            alt="logSou"
+            data-test-id="logo"
+          />
+          <img
+            src={helpLogo}
+            onClick={onLogoClick}
+            alt="logHelp"
             data-test-id="logo"
           />
         </Box>

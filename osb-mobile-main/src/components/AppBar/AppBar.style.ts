@@ -6,7 +6,7 @@ const toolbarHeight = 48
 export const useStyles = makeStyles({
   toolbar: {
     alignItems: 'center',
-    background: colors.system.light.primary,
+    background: colors.system.light.surface,
     display: 'flex',
     justifyContent: 'space-between',
     height: toolbarHeight,
@@ -20,12 +20,13 @@ export const useStyles = makeStyles({
   },
   logo: {
     height: '100%',
+    marginLeft: '-40px',
     borderRadius: '0px',
     cursor: 'pointer',
     display: 'flex',
     alignItems: 'center',
     '& img': {
-      height: 24,
+      height: 30,
     },
   },
 })

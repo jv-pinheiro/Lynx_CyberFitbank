@@ -1,8 +1,8 @@
 export enum CardRoutes {
-  activateCard = '/card/activateCard',
-  activateCardConclude = '/card/activateCardConclude',
-  confirmationActivate = '/card/confirmationActivate',
-  passwordCard = '/card/passwordCard',
+  activateCard = '/card/activateCard', //Verificar o Erro
+  activateCardConclude = '/card/activateCardConclude', // Verificar se precisa trocar a imagem
+  confirmationActivate = '/card/confirmationActivate', // Imagem
+  passwordCard = '/card/passwordCard', //Verificar o Erro
   confirmPasswordCard = '/card/confirmPasswordCard',
   cardManagement = '/card',
   cardOption = '/card/details',
