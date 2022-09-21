@@ -95,7 +95,7 @@ export const AssociateBirthDateCard: React.FC = () => {
         appBar={
           <AppBar
             homeRoute={AccountRoutes.home}
-            action={
+            /*action={
               <Button
                 palette="secondary"
                 size="small"
@@ -104,7 +104,7 @@ export const AssociateBirthDateCard: React.FC = () => {
               >
                 {cancelLabel}
               </Button>
-            }
+            }*/
           />
         }
         header={

@@ -34,19 +34,19 @@ export const AppBar: React.FC<AppBarProps> = ({
         <img
             src={voltTemp}
             onClick={onLogoClick}
-            alt="logVol"
+            alt="logo"
             data-test-id="logo"
           />
           <img
             src={companyLogo}
             onClick={onLogoClick}
-            alt="logSou"
+            alt="logo"
             data-test-id="logo"
           />
           <img
             src={helpLogo}
             onClick={onLogoClick}
-            alt="logHelp"
+            alt="logo"
             data-test-id="logo"
           />
         </Box>

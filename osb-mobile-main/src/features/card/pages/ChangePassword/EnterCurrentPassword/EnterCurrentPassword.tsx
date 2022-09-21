@@ -61,17 +61,17 @@ export const EnterCurrentPassword: React.FC = () => {
         appBar={
           <AppBar
             homeRoute={AccountRoutes.home}
-            action={
-              <Button
-                palette="secondary"
-                size="small"
-                startIcon={<Close color="primary" />}
-                onClick={onCancelButtonClick}
-                data-test-id="cancel-button"
-              >
-                {cancelLabel}
-              </Button>
-            }
+            //action={
+              //<Button
+                //palette="secondary"
+                //size="small"
+                //startIcon={<Close color="primary" />}
+                //onClick={onCancelButtonClick}
+                //data-test-id="cancel-button"
+              //>
+                //</PageContainer>{cancelLabel}
+              //</Button>
+           // }
           />
         }
         header={
