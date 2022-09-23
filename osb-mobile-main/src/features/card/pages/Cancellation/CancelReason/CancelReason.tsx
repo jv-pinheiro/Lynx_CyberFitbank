@@ -28,7 +28,7 @@ export const CancelReason: React.FC = () => {
 
   return (
     <ProcessPageLayout
-      appBar={
+      /*appBar={
         <AppBar
           homeRoute={AccountRoutes.home}
           action={
@@ -43,7 +43,7 @@ export const CancelReason: React.FC = () => {
             </Button>
           }
         />
-      }
+      }*/
       header={
         <Box className={styles.description}>
           <ProcessDescriptionHeader

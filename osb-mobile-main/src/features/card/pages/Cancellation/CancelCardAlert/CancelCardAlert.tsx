@@ -74,7 +74,7 @@ export const CancelCardAlert: React.FC = () => {
   return (
     <PageContainer>
       <ProcessPageLayout
-        appBar={
+        /*appBar={
           <AppBar
             homeRoute={AccountRoutes.home}
             action={
@@ -89,7 +89,7 @@ export const CancelCardAlert: React.FC = () => {
               </Button>
             }
           />
-        }
+        }*/
         header={
           <React.Fragment>
             <Box className={styles.desc}>
