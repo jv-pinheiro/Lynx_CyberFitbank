@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "17013543262",
+    "project_id": "fitbank-7bcfd",
+    "storage_bucket": "fitbank-7bcfd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:17013543262:android:e02a3d9af90c301f137fcf",
+        "android_client_info": {
+          "package_name": "br.com.osb.fitbank"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "17013543262-3frai45jj2ke77rjpida7ts53jrh1vkp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD5diLHXcC2T8-0unOlwSUwgQ7hHBN289E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "17013543262-3frai45jj2ke77rjpida7ts53jrh1vkp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,1 @@
+export { LabelWithValueBank } from "./LabelWithValueBank";
