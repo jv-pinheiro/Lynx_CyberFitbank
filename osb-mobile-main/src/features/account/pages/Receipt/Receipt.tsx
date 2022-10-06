@@ -80,7 +80,7 @@ export const Receipt: React.FC = () => {
         appBar={
           <AppBar
             homeRoute={AccountRoutes.home}
-            action={
+            /*action={
               <Button
                 palette="secondary"
                 size="small"
@@ -90,7 +90,7 @@ export const Receipt: React.FC = () => {
               >
                 {closeLabel}
               </Button>
-            }
+            }*/
           />
         }
         header={<ProcessDescriptionHeader title="Comprovante" />}

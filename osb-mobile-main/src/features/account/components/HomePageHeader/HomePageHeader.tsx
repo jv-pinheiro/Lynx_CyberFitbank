@@ -48,18 +48,19 @@ export const HomePageHeader: React.FC<HomePageHeaderProps> = ({
     <Box className={_getClassName()}>
       <CardContent data-test-id="card-content">
         <Toolbar className={styles.toolbar}>
-          <Icon
-            name={'logoSmall'}
+          {/*<Icon
+            name={'logo'}
             className={styles.logo}
             data-test-id="logo"
-          />
-          <SettingsButton />
+            ${accountName ?? '---'}
+  />*/}
+          <SettingsButton/>
         </Toolbar>
         <Box
           className={styles.greetingsSection}
           data-test-id="greetings-section"
         >
-          <Typography>{`Olá ${accountName ?? '---'}`}</Typography>
+          <Typography>{`Olá, Maria`}</Typography>
         </Box>
         <Grid container justify="space-between" alignItems="center">
           <Grid item>
