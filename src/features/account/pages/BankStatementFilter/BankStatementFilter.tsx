@@ -120,7 +120,7 @@ export const BankStatementFilter: React.FC = () => {
         appBar={
           <AppBar
             homeRoute={AccountRoutes.home}
-            action={
+            /*action={
               <Button
                 palette="secondary"
                 size="small"
@@ -130,7 +130,7 @@ export const BankStatementFilter: React.FC = () => {
               >
                 {cancelLabel}
               </Button>
-            }
+            }*/
           />
         }
         header={

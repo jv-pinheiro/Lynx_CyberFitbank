@@ -35,7 +35,7 @@ export const Help: React.FC = () => {
         appBar={
           <AppBar
             homeRoute={AccountRoutes.home}
-            action={
+            /*action={
               <Button
                 palette="secondary"
                 size="small"
@@ -45,7 +45,7 @@ export const Help: React.FC = () => {
               >
                 {cancelLabel}
               </Button>
-            }
+            }*/
           />
         }
         header={

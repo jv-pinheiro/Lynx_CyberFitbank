@@ -5,7 +5,8 @@ import companyLogo from '_assets/img/helpsound.svg'
 import helpLogo from '_assets/img/teleatendimento.svg'
 import voltTemp from '_assets/img/Voltar.svg'
 import { useStyles } from './AppBar.style'
-
+import ReactPlayer from 'react-player'
+import Audio from './Audios/pix.mp3';
 interface AppBarProps {
   homeRoute: string
   action?: React.ReactNode
@@ -29,6 +30,7 @@ export const AppBar: React.FC<AppBarProps> = ({
       data-test-id="appbar"
       {...rest}
     >
+      
       <Toolbar className={style.toolbar}>
         <Box className={style.logo}>
         <img
@@ -37,15 +39,28 @@ export const AppBar: React.FC<AppBarProps> = ({
             alt="logo"
             data-test-id="logo"
           />
+         
           <img
-            src={companyLogo}
+           /* src={companyLogo}
             onClick={onLogoClick}
             alt="logo"
             data-test-id="logo"
+          */
+            />
+          
+        </Box>
+        <Box className = {style.play}>
+        <ReactPlayer
+            url= {Audio}
+            width="150px"
+            height="45px"
+            playing={false}
+            controls={true}
           />
-          <img
+        </Box>
+        <Box className = {style.test}>
+        <img
             src={helpLogo}
-            onClick={onLogoClick}
             alt="logo"
             data-test-id="logo"
           />

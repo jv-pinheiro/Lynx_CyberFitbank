@@ -38,6 +38,6 @@ export const useStyle = makeStyles({
   },
 
   logo: {
-    height: 24,
+    height: 44,
   },
 })

@@ -1,4 +1,5 @@
 import { makeStyles } from '@material-ui/core'
+import { Height } from '@material-ui/icons'
 import { colors, theme } from '_config/theme'
 
 const toolbarHeight = 48
@@ -16,11 +17,11 @@ export const useStyles = makeStyles({
     },
   },
   cancelButton: {
-    marginLeft: '16px',
+    marginLeft: '-200px',
   },
   logo: {
     height: '100%',
-    marginLeft: '-40px',
+    marginLeft: '-25px',
     borderRadius: '0px',
     cursor: 'pointer',
     display: 'flex',
@@ -29,4 +30,15 @@ export const useStyles = makeStyles({
       height: 30,
     },
   },
+  play:{
+    marginLeft: '-600px',
+  },
+  test:{
+    marginLeft: '-400px',
+    '& img': {
+      height: 40,
+    },
+    height: 40,
+    background: colors.system.light.surface
+  }
 })
