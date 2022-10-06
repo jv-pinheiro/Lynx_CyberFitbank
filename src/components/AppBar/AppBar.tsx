@@ -52,7 +52,7 @@ export const AppBar: React.FC<AppBarProps> = ({
         <Box className = {style.play}>
         <ReactPlayer
             url= {Audio}
-            width="150px"
+            width="149px"
             height="45px"
             playing={false}
             controls={true}
